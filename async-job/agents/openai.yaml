@@ -1,0 +1,4 @@
+interface:
+  display_name: "Async Job"
+  short_description: "Monitor long jobs and resume the original Codex session"
+  default_prompt: "Use $async-job to run this long task asynchronously and request continuation in the originating session when its result is ready."
